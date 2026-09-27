@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#03020b">
+  <title>Untuk Kamu, Sayanggggkuu ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--
+    ============================================================
+    WEBSITE UCAPAN ULANG TAHUN
+    FIREWORKS → TEXT PARTICLES → SPACE FLIGHT → PLANET
+    ============================================================
+  -->
+
+  <div id="intro">
+    <canvas id="fireworks"></canvas>
+
+    <div id="introHint">
+      <span>tap / click untuk memulai perjalanan</span>
+    </div>
+
+    <div id="skipIntro">
+      Lewati animasi →
+    </div>
+  </div>
+
+  <main id="universe">
+    <div class="space-bg"></div>
+    <div class="stars stars-a"></div>
+    <div class="stars stars-b"></div>
+    <div class="stars stars-c"></div>
+
+    <div class="nebula nebula-a"></div>
+    <div class="nebula nebula-b"></div>
+
+    <div id="warp">
+      <div class="warp-line"></div>
+    </div>
+
+    <section class="hero-space">
+      <div class="planet-system">
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <div class="planet">
+          <div class="planet-clouds"></div>
+          <div class="planet-light"></div>
+          <div class="planet-shadow"></div>
+          <div class="planet-ring"></div>
+        </div>
+
+        <!-- Foto-foto akan dibuat mengorbit planet oleh JS -->
+        <div id="photoOrbit"></div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="small-title">A MESSAGE FROM MY UNIVERSE</p>
+        <h1 id="mainTitle"></h1>
+        <p id="heroSubtitle"></p>
+
+        <button id="exploreButton">
+          ✦ Click / Tap Mari Jelajahi Semesta Sayanggggkuu
+        </button>
+      </div>
+    </section>
+
+    <section id="journey">
+      <div class="journey-intro">
+        <p class="small-title">OUR LITTLE UNIVERSE</p>
+        <h2>Satu per satu, untuk kamu.</h2>
+      </div>
+
+      <div id="journeyMessages"></div>
+    </section>
+
+    <section id="gallerySection">
+      <p class="small-title">MEMORIES</p>
+      <h2>Hari-hari telah berlalu banyak memori tersimpan.</h2>
+      <p class="gallery-description">
+        Foto-foto ini menjadi bagian kecil dari perjalanan kita.
+      </p>
+
+      <div id="gallery"></div>
+    </section>
+
+    <section id="finalMessage">
+      <div class="final-star">∞</div>
+      <p class="small-title">THE END IS NOT THE END</p>
+      <h2 id="finalTitle"></h2>
+      <p id="finalText"></p>
+
+      <button id="replayButton">↻ Mulai lagi dari awal</button>
+    </section>
+
+    <footer>
+      dibuat dengan banyak cinta ♡
+    </footer>
+  </main>
+
+  <div id="musicControl" aria-label="Kontrol musik">
+    <button id="musicButton">♫</button>
+    <div>
+      <strong>About You</strong>
+      <small>The 1975</small>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
